@@ -1,0 +1,29 @@
+.card-container {
+  min-width: 100%;
+  border: 1px solid var(--night-owl-blue);
+  border-radius: var(--br1);
+  box-shadow: var(--shadow-md);
+}
+
+ul {
+  list-style-type: none;
+  padding: var(--s3);
+}
+
+li {
+  line-height: var(--s6);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-bottom: 1px solid var(--night-owl-blue);
+  color: var(--white);
+  border-radius: var(--br1) var(--br1) 0 0;
+  background: linear-gradient(
+    90deg,
+    var(--night-owl-blue),
+    var(--night-owl-light-blue)
+  );
+}

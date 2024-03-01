@@ -1,0 +1,10 @@
+path {
+  cursor: pointer;
+  fill: var(--night-owl-blue);
+  stroke: #d1d1d1;
+  transition: all 0.3s ease-in-out;
+}
+
+path:hover {
+  fill: var(--night-owl-light-blue);
+}
