@@ -11,7 +11,7 @@ import { NgFor } from '@angular/common';
 export class SourcesComponent {
   toolsUsed = [
     {
-      name: 'Angular Framwork',
+      name: 'Angular Framework',
       url: 'https://angular.io/',
     },
     {
